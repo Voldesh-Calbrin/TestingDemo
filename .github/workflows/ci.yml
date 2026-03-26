@@ -22,5 +22,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
       
+      - name: Lint
+        run: flake8 src/tests/
+        
       - name: run the tests
         run: pytest -q

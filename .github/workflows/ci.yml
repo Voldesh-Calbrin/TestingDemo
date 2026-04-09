@@ -32,5 +32,3 @@ jobs:
 
       - name: run the tests
         run: pytest -q
-
-      - name: band

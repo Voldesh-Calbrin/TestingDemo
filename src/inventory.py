@@ -33,5 +33,4 @@ def reset_stock():
     _stock.clear()
     _stock.update({"laptop": 10, "mouse": 50, "keyboard": 25})
 
-import subprocess
-subprocess.call(input("Enter command: "), shell=True)
+
